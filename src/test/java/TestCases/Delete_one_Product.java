@@ -43,7 +43,7 @@ public class Delete_one_Product {
 		System.out.println(responseBody);
 		//Parsing the response body to json:
 		JsonPath js= new JsonPath(responseBody);
-		Assert.assertEquals(js.get("message"), "Product was DELETED.");
+		Assert.assertEquals(js.get("message"), "Product was deleted.");
 		
 //		
 

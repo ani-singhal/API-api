@@ -18,7 +18,7 @@ public class Put_Update {
 	@Test
 	public void update_a_Product() {
 		HashMap payload = new HashMap();
-		payload.put("id", "1305");
+		payload.put("id", "1172");
 		payload.put("name", "HHarry Potter 7");
 		payload.put("description", "FICTION.");
 		payload.put("price", "100");
@@ -51,7 +51,7 @@ public class Put_Update {
 		Assert.assertEquals(messageValue, "Product was updated.", "SOmething Wrong..");
 		//Assert.assertEquals(js.get("message"), "Product was updated.");
 		
-		readAprod.read_One_Products("1305");
+		readAprod.read_One_Products("1172");
 
 //		
 

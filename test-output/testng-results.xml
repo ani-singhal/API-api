@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6040" started-at="2021-03-01T03:43:29Z" finished-at="2021-03-01T03:43:35Z">
+  <suite name="Default suite" duration-ms="5620" started-at="2021-03-11T01:29:00Z" finished-at="2021-03-11T01:29:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6040" started-at="2021-03-01T03:43:29Z" finished-at="2021-03-01T03:43:35Z">
-      <class name="TestCases.Put_Update">
-        <test-method status="PASS" signature="update_a_Product()[pri:0, instance:TestCases.Put_Update@159f197]" name="update_a_Product" duration-ms="5989" started-at="2021-03-01T03:43:29Z" finished-at="2021-03-01T03:43:35Z">
+    <test name="Default test" duration-ms="5620" started-at="2021-03-11T01:29:00Z" finished-at="2021-03-11T01:29:05Z">
+      <class name="TestCases.POST_Or_Create_a_Product">
+        <test-method status="PASS" signature="creat_a_Product()[pri:0, instance:TestCases.POST_Or_Create_a_Product@159f197]" name="creat_a_Product" duration-ms="5548" started-at="2021-03-11T01:29:00Z" finished-at="2021-03-11T01:29:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- update_a_Product -->
-      </class> <!-- TestCases.Put_Update -->
+        </test-method> <!-- creat_a_Product -->
+      </class> <!-- TestCases.POST_Or_Create_a_Product -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

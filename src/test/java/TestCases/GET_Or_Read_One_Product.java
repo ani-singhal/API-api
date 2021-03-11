@@ -37,8 +37,10 @@ public class GET_Or_Read_One_Product {
 		response.getBody().prettyPrint();
 //		String responseBody= response.getBody().asString();
 //		//System.out.println(responseBody);
+		
 //		//Parsing the response body to json:
 //		JsonPath js= new JsonPath(responseBody);
+//		js.prettyPrint();
 //		String productId = js.getString("id");
 //		String productname = js.getString("name");
 //		
@@ -57,20 +59,13 @@ public class GET_Or_Read_One_Product {
 //			else {
 //				System.out.println("NOT Acceptable");
 //			}
+//		softAssert.assertAll();
 		
 	}
 
 	}
 
-/*
- * Base URL/URI, Endpoint/Resource, Headers, QueryParameters 
- * Http Methods: GET,POST,PUT,DELETE Payload/Body
- * given: all input details (Base URL/URI, Headers, Payload/Body,
- * QueryParameters) when: Submit api requests (http
- * methods(GET/POST/PUT/DELETE), endpoint/resource) then: validate the
- * response(statusCode,Headers, Payload/Body, responseTime)
- */
-// https://techfios.com/api-prod/api/product/read.php
+
 	
 
 

@@ -16,8 +16,8 @@ public class POST_Or_Create_a_Product {
 	@Test
 	public void creat_a_Product() {
 	HashMap payload =new HashMap();
-	payload.put("name", "HPP LLaptop");
-	payload.put("description", "Super Fast");
+	payload.put("name", "HPP LLaptopp");
+	payload.put("description", "Superrr Fast");
 	payload.put("price", "$1100");
 	payload.put("category_id", "2");
 	payload.put("category_name", "Electronics");
